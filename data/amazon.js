@@ -7,20 +7,20 @@ let productsHTML='';
                     <div class="product-image-container">
                       <img class="product-image"
                         src="${product.image}">
-                    </div><div class="product-name limit-text-to-2-lines">${product.name}</div>
+                    </div>
+                    <div class="product-name limit-text-to-2-lines">${product.name}</div>
 
                     <div class="product-rating-container">
                       <img class="product-rating-stars"
-                        src="${product.rating.stars*10}">
+                        src="images/ratings/rating-${product.rating.stars*10}.png">
                         ${product.rating.count}
                       </div>
-                    </div>
 
                     <div class="product-price">
                       ${(product.priceCents/100).toFixed(2)}
                     </div>
 
-<div class="product-quantity-container">
+                    <div class="product-quantity-container">
                       <select>
                         <option selected value="1">1</option>
                         <option value="2">2</option>
@@ -45,11 +45,9 @@ let productsHTML='';
                     <button class="add-to-cart-button button-primary">
                       Add to Cart
                     </button>
+                  </div>
                   </div>`;
 
                   
   });
-
-  console.log(productsHTML);
-
   document.querySelector('.js-products-grid').innerHTML = productsHTML;
