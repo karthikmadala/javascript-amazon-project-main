@@ -8,10 +8,16 @@ let cartSummaryHTML = '';
 
 cart.forEach((cartItem) => {
   const productId = cartItem.productId;
-  let matchingProduct = products.find(product => product.id === productId);
+  let matchingProduct;
+  products.forEach((product) => {
+    if(product.id === productId){
+        matchingProduct =product;
+    };
 
+});
+
+console.log(matchingProduct);
   
-  if (!matchingProduct) return;
 
   cartSummaryHTML += `
     <div class="cart-item-container js-cart-item-container-${matchingProduct.id}">
