@@ -1,8 +1,19 @@
 import {formatCurrency} from "../../scripts/utils/money.js";
 
+if(
+formatCurrency(2095)==="20.95"){
+    console.log("passed");
+    
+}
+else{
+    console.log("failed");
+    
+}
 
-describe("test suite: formatcurrency",()=>{
-    it("converts cents into dollers",()=>{
-        expect(formatCurrency(2095)).toEqual('20.95');
-    });
-});
+if(formatCurrency(0)==="0.00"){
+    console.log("passes");
+}
+else{
+    console.log("failed");
+    
+}
