@@ -84,12 +84,12 @@ export function loadCart(fun) {
     console.log('load cart');
     fun();
   });
-  xhr.open('GET', 'https://supersimplebackend.dev/cart');
+  xhr.open('GET', 'backend/products.json');
   xhr.send();
 }
 
 export async function loadCartFetch() {
-  const response = await fetch('https://supersimplebackend.dev/cart');
+  const response = await fetch('backend/products.json');
   const data = await response.text();
   console.log(data);
   return data;
