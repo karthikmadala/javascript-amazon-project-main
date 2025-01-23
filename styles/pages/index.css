@@ -3,7 +3,7 @@
 }
 
 .products-grid {
-  display: grid;  
+  display: grid;
 
   /* - In CSS Grid, 1fr means a column will take up the
        remaining space in the grid.
@@ -142,6 +142,10 @@
      be invisible. Use JavaScript to change the
      opacity and make it visible. */
   opacity: 0;
+}
+
+.added-to-cart-visible {
+  opacity: 1;
 }
 
 .added-to-cart img {
