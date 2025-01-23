@@ -1,19 +1,13 @@
-import {formatCurrency} from "../../scripts/utils/money.js";
+import { formatCurrency } from '../../scripts/utils/money.js';
 
-if(
-formatCurrency(2095)==="20.95"){
-    console.log("passed");
-    
-}
-else{
-    console.log("failed");
-    
-}
-
-if(formatCurrency(0)==="0.00"){
-    console.log("passes");
-}
-else{
-    console.log("failed");
-    
-}
+describe('test suite: formatCurrency', () => {
+  it('converts cents into dollars', () => {
+    expect(formatCurrency(2095)).toEqual('20.95');
+  });
+  it('works with 0', () => {
+    expect(formatCurrency(0)).toEqual('0.00');
+  });
+  it('rounds up to the nearest cent', () => {
+    expect(formatCurrency(2000.5)).toEqual('20.01');
+  });
+});
