@@ -53,46 +53,50 @@ class Clothing extends Product{
 
 export let products=[];
 
-export function loadProductsFetch(){
-  const promise = fetch(
-    'https://supersimplebackend.dev/products').then((response)=>{
-    return response.json();
-  }).then((productsData)=>{
-      products=productsData.map((productDetails)=>{
-        if(productDetails.type === 'clothing'){
+export function loadProductsFetch() {
+  const promise = fetch('backend/products.json')  // Assuming products.json is in the same directory as your JS file
+    .then((response) => response.json())
+    .then((productsData) => {
+      products = productsData.map((productDetails) => {
+        if (productDetails.type === 'clothing') {
           return new Clothing(productDetails);
         }
-       return new Product(productDetails);
+        return new Product(productDetails);
       });
-      console.log('load Products');
-      
-    }).catch((error)=>{
-    console.log('Unexpected error. Please try again later.');
+      console.log('Loaded products from products.json');
+    })
+    .catch((error) => {
+      console.log('Unexpected error. Please try again later.', error);
     });
-    return promise;
-
+  return promise;
 }
 
 
-export function loadProducts(fun){
+
+export function loadProducts(fun) {
   const xhr = new XMLHttpRequest();
-  xhr.addEventListener('load',()=>{
-    products=JSON.parse(xhr.response).map((productDetails)=>{
-      if(productDetails.type === 'clothing'){
-        return new Clothing(productDetails);
-      }
-     return new Product(productDetails);
-    });
-    fun();
+  xhr.addEventListener('load', () => {
+    try {
+      const productsData = JSON.parse(xhr.responseText);
+      products = productsData.map((productDetails) => {
+        if (productDetails.type === 'clothing') {
+          return new Clothing(productDetails);
+        }
+        return new Product(productDetails);
+      });
+      fun();  // This function gets called once products are loaded
+    } catch (error) {
+      console.log('Error parsing JSON:', error);
+    }
   });
-  xhr.addEventListener('error',(error)=>{
+  xhr.addEventListener('error', () => {
     console.log('Unexpected error. Please try again later.');
-    
   });
 
-  xhr.open('GET','https://ssupersimplebackend.dev/products');
+  xhr.open('GET', 'backend/products.json', true);  // Loading local products.json
   xhr.send();
 }
+
 
 
 
