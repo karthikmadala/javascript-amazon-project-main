@@ -12,9 +12,9 @@
 
 ## 🌐 Connect With Me
 <div align="center">
-<!--   <a href="https://instagram.com/lviffy" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram"></a> -->
+<!--   <a href="https://instagram.com/karthikmadala" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram"></a> -->
   <a href="https://www.linkedin.com/in/karthik-m-15850a230/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<!--   <a href="https://x.com/lviffy_" target="_blank"><img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" alt="X"></a> -->
+<!--   <a href="https://x.com/karthikmadala_" target="_blank"><img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" alt="X"></a> -->
   <a href="mailto:madalakarthiknaidu3@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail"></a>
 </div>
 
@@ -23,9 +23,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lviffy/Lviffy/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lviffy/Lviffy/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/Lviffy/Lviffy/output/github-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/karthikmadala/karthikmadala/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/karthikmadala/karthikmadala/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/karthikmadala/karthikmadala/output/github-snake.svg" />
   </picture>
 </div>
 
@@ -37,7 +37,7 @@
   <br/>
   <img src="https://nirzak-streak-stats.vercel.app/?user=karthikmadala&theme=github_dark&hide_border=false" alt="GitHub Streak" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lviffy&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karthikmadala&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" />
 </div>
 
 ## 🏆 GitHub Trophies
