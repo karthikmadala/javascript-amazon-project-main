@@ -29,9 +29,26 @@
   </picture>
 </div>
 
+
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lviffy&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=karthikmadala&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats" />
   <br/>
-  <img src="https://nirzak-s…
+  <img src="https://nirzak-streak-stats.vercel.app/?user=karthikmadala&theme=github_dark&hide_border=false" alt="GitHub Streak" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lviffy&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" />
+</div>
+
+## 🏆 GitHub Trophies
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=karthikmadala&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4" alt="GitHub Trophies" />
+</div>
+
+<div align="center">
+  
+  ### ✍️ Random Dev Quote
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" />
+  
+  ---
+</div>
