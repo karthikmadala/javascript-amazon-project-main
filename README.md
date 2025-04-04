@@ -12,10 +12,10 @@
 
 ## 🌐 Connect With Me
 <div align="center">
-  <a href="https://instagram.com/lviffy" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://www.linkedin.com/in/rohan-kumar-mohanta-3b8421324/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://x.com/lviffy_" target="_blank"><img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" alt="X"></a>
-  <a href="mailto:contact.rohan.here@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail"></a>
+<!--   <a href="https://instagram.com/lviffy" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram"></a> -->
+  <a href="https://www.linkedin.com/in/karthik-m-15850a230/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<!--   <a href="https://x.com/lviffy_" target="_blank"><img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" alt="X"></a> -->
+  <a href="mailto:madalakarthiknaidu3@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail"></a>
 </div>
 
 ## 💻 Tech Stack:
